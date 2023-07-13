@@ -1,0 +1,144 @@
+@import url("default.css");
+
+@media screen and (max-width: 640px) {
+  header {
+    height: 50px;
+  }
+  header h1 a {
+    width: 51px;
+    height: 25px;
+  }
+  header .gnb button {
+    display: block;
+  }
+  header .gnb button {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  header .gnb button span {
+    display: none;
+  }
+  header .gnb ul {
+    display: none;
+  }
+  header .tnb {
+    display: none;
+  }
+  header.fixed .gnb button i {
+    color: #1d1d1d;
+  }
+
+  .visual {
+    height: 450px;
+  }
+  .visual h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .visual h2 span {
+    display: inline;
+  }
+  .visual .inner p {
+    display: none;
+  }
+
+  .biz .group1 {
+    margin: 50px 0 30px 0;
+  }
+  .biz .group2 {
+    margin-bottom: 30px;
+  }
+  .biz img {
+    width: 100%;
+  }
+  .biz .fleft img {
+    float: none;
+  }
+  .biz .inner {
+    width: auto;
+  }
+  .biz .fleft .inner {
+    float: none;
+    margin: 0;
+  }
+  .biz .fright img {
+    float: none;
+  }
+  .biz .fright .inner {
+    float: none;
+    margin: 0;
+  }
+  .biz h2 {
+    margin: 15px 0 8px 0;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .purpose {
+    margin: 70px 0;
+    height: 500px;
+    padding-top: 80px;
+  }
+  .purpose h2 {
+    padding: 20px 50px 20px 50px;
+    font-size: 35px;
+  }
+  .purpose h2 span {
+    display: block;
+    font-size: 35px;
+  }
+  .purpose .inner p {
+    padding-top: 80px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .purpose h2 strong::before {
+    left: -20px;
+    top: -55px;
+  }
+  .purpose h2 strong::after {
+    right: 100px;
+    bottom: -55px;
+  }
+  .purpose h2 strong::before,
+  .purpose h2 strong::after {
+    background-size: 45px auto;
+  }
+
+  .news ul {
+    display: block;
+    gap: 0;
+  }
+  .news ul li {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .news ul li a .cate {
+    margin: 15px 15px 5px 15px;
+  }
+  .news ul li a .tit {
+    margin: 0 15px;
+  }
+  .news ul li a .date {
+    margin: 0;
+    padding: 15px 15px 10px 15px;
+  }
+
+  footer {
+    padding: 25px 0 55px 0;
+  }
+  footer .family {
+    float: none;
+  }
+  footer .family button {
+    width: 160px;
+    height: 30px;
+  }
+  footer .inner {
+    float: none;
+  }
+  footer .inner .fnav {
+    margin-top: 30px;
+  }
+}
