@@ -1,0 +1,320 @@
+@import url(default.css);
+.material-symbols-rounded {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 0, "GRAD" 0, "opsz" NaN;
+}
+header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+header h1 {
+  float: left;
+  margin: 30px 0 0 0;
+}
+header nav {
+  float: right;
+}
+header nav ul {
+  float: left;
+  margin: 15px 0 0 0;
+}
+header nav ul li {
+  float: left;
+}
+header nav ul li:last-child {
+  margin-right: 0;
+}
+header nav ul li a {
+  display: block;
+  padding: 20px 26px;
+  color: #fff;
+  font-size: 22px;
+}
+.visual {
+  position: relative;
+  border-radius: 0 0 200px 0;
+  height: 900px;
+  background-image: url(../images/visual_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.vtitle {
+  text-align: center;
+  padding-top: 270px;
+}
+.vtitle p {
+  color: rgb(255, 255, 255, 0.6);
+  font-size: 25px;
+  letter-spacing: 0.2em;
+  margin: -40px 0 0 0;
+}
+.visual .photo {
+  position: absolute;
+  right: 200px;
+  top: 800px;
+}
+.visual .photo a {
+  display: block;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: linear-gradient(to top, #03a0ff, #117aff);
+  box-shadow: -5px 0 20px rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+}
+.visual .photo a i {
+  display: block;
+  padding: 45px 0 15px 0;
+  font-size: 30px;
+}
+.visual .photo a span {
+  display: block;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.day .chung {
+  margin: 110px 0 20px 0;
+}
+.day .chung h1 {
+  font-size: 50px;
+  color: #1d1d1d;
+  font-weight: 800px;
+  letter-spacing: -0.05em;
+}
+.day .chung a {
+  float: right;
+  margin: -40px 0 0 0;
+}
+.day .chung a i {
+  font-size: 12px;
+  margin-left: 7px;
+}
+.day ul li {
+  float: left;
+  width: 290px;
+  margin-right: 40px;
+}
+.day ul li:last-child {
+  margin-right: 0;
+}
+.day ul li a {
+  display: block;
+  margin: 0 0 15px 0;
+}
+.day ul li a h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 7px 0;
+}
+.slide .stitle {
+  margin: 120px 0 20px 0;
+}
+.slide .stitle h1 {
+  font-size: 50px;
+  color: #1d1d1d;
+  font-weight: 800px;
+  letter-spacing: -0.05em;
+}
+.slide .stitle a {
+  float: right;
+  margin: -40px 0 0 0;
+}
+.slide .stitle a i {
+  font-size: 12px;
+  margin-left: 7px;
+}
+.slide ul li {
+  float: left;
+  width: 240px;
+  height: 272px;
+  margin-right: 40px;
+}
+.slide ul li:last-child {
+  margin-right: 0;
+}
+.slide ul li.tour1 {
+  background-image: url(../images/tour_img01.png);
+  width: 440px;
+}
+.slide ul li.tour2 {
+  background-image: url(../images/tour_img02.png);
+}
+.slide ul li.tour3 {
+  background-image: url(../images/tour_img03.png);
+}
+.slide ul li.tour4 {
+  background-image: url(../images/tour_img04.png);
+}
+.slide ul li a {
+  display: block;
+  margin: 220px 0 0 25px;
+}
+.slide ul li a span {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+.rest {
+  background-image: url(../images/rest_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 700px;
+  margin-top: 140px;
+  color: #fff;
+}
+.rest .rtitle {
+  float: left;
+}
+.rtitle h1 {
+  font-size: 50px;
+  margin: 180px 0 10px 0;
+}
+.restcontainer {
+  float: right;
+  margin-top: 190px;
+}
+.restcontainer .notice {
+  float: left;
+  width: 400px;
+  height: 280px;
+  padding: 20px;
+  background-color: rgba(75, 86, 121, 0.65);
+  border-radius: 10px;
+}
+.restcontainer .notice h2 {
+  margin-bottom: 35px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.restcontainer .notice ul li {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.restcontainer .notice ul li a {
+  display: inline-block;
+  line-height: 2em;
+  margin: 8px 0;
+}
+.restcontainer .notice ul li span {
+  float: right;
+  margin-top: 10px;
+  color: rgb(255, 255, 255, 0.8);
+}
+.restcontainer .ban {
+  float: left;
+  widows: 420px;
+  margin-left: 20px;
+}
+.restcontainer .ban ul li {
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 190px;
+  height: 130px;
+  padding: 20px 0 0 20px;
+  background-color: rgba(75, 86, 121, 0.65);
+  border-radius: 10px;
+}
+.restcontainer .ban ul li strong {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.restcontainer .ban ul li i {
+  display: block;
+  font-size: 30px;
+  text-align: right;
+  margin: 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.restcontainer .ban ul li:nth-child(2),
+.restcontainer .ban ul li:nth-child(4) {
+  margin-right: 0;
+}
+.restcontainer .ban ul li:nth-child(3) {
+  clear: left;
+}
+
+footer {
+  padding: 48px 0 63px 0;
+  background-color: #21242d;
+  color: rgba(255, 255, 255, 0.8);
+}
+footer .flist ul li {
+  float: left;
+  margin-right: 20px;
+  font-weight: 300;
+}
+footer .flist ul li span.oh {
+  position: relative;
+  margin: 10px 25px 10px 0;
+}
+footer .flist ul li span.oh::after {
+  display: block;
+  position: absolute;
+  right: -20px;
+  top: 5px;
+  width: 1px;
+  height: 11px;
+  background-color: rgba(255, 255, 255, 0.3);
+  content: "";
+}
+footer .flist ul li span.ho {
+  position: relative;
+  margin: 10px 25px 10px 0;
+}
+footer .flist ul li span.ho::after {
+  position: absolute;
+  right: -12px;
+  top: 5px;
+  width: 1px;
+  height: 11px;
+  background-color: rgba(255, 255, 255, 0.3);
+  content: "";
+}
+footer .last a {
+  display: inline;
+  float: right;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  margin-top: -15px;
+}
+footer .last a span.text {
+  float: left;
+  padding: 5px 80px 0 5px;
+  margin: 5px 10px 10px 10px;
+}
+footer .last a span.img {
+  float: right;
+  margin: 15px 10px 0 0;
+}
+footer address {
+  display: inline-block;
+  margin: 20px 0 0 0;
+  letter-spacing: 0.05em;
+}
+footer .copy {
+  display: inline-block;
+  margin: 20px 0 0 0;
+  letter-spacing: 0.05em;
+}
