@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Graphic Design Portfolio</title>
+
+<style>
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body {
+
+    font-family:
+    "Pretendard",
+    "Noto Sans KR",
+    Arial,
+    sans-serif;
+
+    background:#fafafa;
+    color:#222;
+
+}
+
+
+/* HEADER */
+
+header {
+
+    padding:120px 8% 80px;
+
+}
+
+
+header h1 {
+
+    font-size:48px;
+    font-weight:700;
+    letter-spacing:-2px;
+
+}
+
+
+header p {
+
+    margin-top:20px;
+    color:#777;
+    font-size:18px;
+
+}
+
+
+
+/* GALLERY */
+
+.gallery {
+
+    width:84%;
+    margin:auto;
+
+    columns:3;
+    column-gap:30px;
+
+}
+
+
+
+.card {
+
+    break-inside:avoid;
+
+    margin-bottom:35px;
+
+    opacity:0;
+
+    transform:translateY(50px);
+
+    transition:
+    opacity .8s ease,
+    transform .8s ease;
+
+}
+
+
+
+.card.show {
+
+    opacity:1;
+
+    transform:none;
+
+}
+
+
+
+.card img {
+
+    width:100%;
+
+    display:block;
+
+    border-radius:18px;
+
+}
+
+
+
+/* TEXT */
+
+.info {
+
+    padding:18px 5px;
+
+}
+
+
+.info h2 {
+
+    font-size:20px;
+
+    font-weight:600;
+
+    letter-spacing:-0.5px;
+
+}
+
+
+
+.info span {
+
+    display:block;
+
+    margin-top:8px;
+
+    font-size:14px;
+
+    color:#888;
+
+}
+
+
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.gallery {
+
+    columns:2;
+
+}
+
+}
+
+
+
+@media(max-width:600px){
+
+
+header {
+
+    padding:80px 7% 50px;
+
+}
+
+
+header h1 {
+
+    font-size:34px;
+
+}
+
+
+.gallery {
+
+    columns:1;
+
+    width:86%;
+
+}
+
+
+}
+
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+
+<header>
+
+<h1>
+GRAPHIC DESIGN
+</h1>
+
+<p>
+Notice · Banner · Promotion · Motion Design
+</p>
+
+</header>
+
+
+
+
+<section class="gallery">
+
+
+
+<!-- 01 -->
+
+<div class="card">
+
+<img src="images/design01.png">
+
+<div class="info">
+
+<h2>공지사항 디자인 01</h2>
+
+<span>
+Notice Design
+</span>
+
+</div>
+
+</div>
+
+
+
+
+<!-- 02 -->
+
+<div class="card">
+
+<img src="images/design02.png">
+
+<div class="info">
+
+<h2>공지사항 디자인 02</h2>
+
+<span>
+Notice Design
+</span>
+
+</div>
+
+</div>
+
+
+
+
+<!-- 03 -->
+
+<div class="card">
+
+<img src="images/design03.png">
+
+<div class="info">
+
+<h2>공지사항 디자인 03</h2>
+
+<span>
+Notice Design
+</span>
+
+</div>
+
+</div>
+
+
+
+
+<!-- 04 -->
+
+<div class="card">
+
+<img src="images/design04.png">
+
+<div class="info">
+
+<h2>공지사항 디자인 04</h2>
+
+<span>
+Notice Design
+</span>
+
+</div>
+
+</div>
+
+
+
+
+<!-- 05 -->
+
+<div class="card">
+
+<img src="images/design05.png">
+
+<div class="info">
+
+<h2>공지사항 디자인 05</h2>
+
+<span>
+Notice Design
+</span>
+
+</div>
+
+</div>
+
+
+
+
+<!-- 06 -->
+
+<div class="card">
+
+<img src="images/design06.jpg">
+
+<div class="info">
+
+<h2>프로모션 배너 디자인</h2>
+
+<span>
+Banner Design
+</span>
+
+</div>
+
+</div>
+
+
+
+
+<!-- 07 -->
+
+<div class="card">
+
+<img src="images/design07.jpg">
+
+<div class="info">
+
+<h2>프로모션 배너 디자인</h2>
+
+<span>
+Banner Design
+</span>
+
+</div>
+
+</div>
+
+
+
+
+<!-- 08 -->
+
+<div class="card">
+
+<img src="images/design08.jpg">
+
+<div class="info">
+
+<h2>프로모션 배너 디자인</h2>
+
+<span>
+Banner Design
+</span>
+
+</div>
+
+</div>
+
+
+
+
+<!-- 09 -->
+
+<div class="card">
+
+<img src="images/design09.png">
+
+<div class="info">
+
+<h2>광고 상세페이지 디자인</h2>
+
+<span>
+Promotion Detail Page
+</span>
+
+</div>
+
+</div>
+
+
+
+
+<!-- 10 -->
+
+<div class="card">
+
+<img src="images/design10.png">
+
+<div class="info">
+
+<h2>할로윈 이벤트 디자인</h2>
+
+<span>
+Event Design
+</span>
+
+</div>
+
+</div>
+
+
+
+
+<!-- 11 -->
+
+<div class="card">
+
+<img src="images/design11.gif">
+
+<div class="info">
+
+<h2>모션 로고 배너</h2>
+
+<span>
+Motion Banner · GIF Animation
+</span>
+
+</div>
+
+</div>
+
+
+
+
+<!-- 12 -->
+
+<div class="card">
+
+<img src="images/design12.gif">
+
+<div class="info">
+
+<h2>모션 로고 배너</h2>
+
+<span>
+Motion Banner · GIF Animation
+</span>
+
+</div>
+
+</div>
+
+
+
+
+<!-- 13 -->
+
+<div class="card">
+
+<img src="images/design13.gif">
+
+<div class="info">
+
+<h2>모션 로고 배너</h2>
+
+<span>
+Motion Banner · GIF Animation
+</span>
+
+</div>
+
+</div>
+
+
+
+
+<!-- 14 -->
+
+<div class="card">
+
+<img src="images/design14.gif">
+
+<div class="info">
+
+<h2>모션 로고 배너</h2>
+
+<span>
+Motion Banner · GIF Animation
+</span>
+
+</div>
+
+</div>
+
+
+
+</section>
+
+
+
+
+<script>
+
+
+// Scroll Reveal
+
+const cards =
+document.querySelectorAll(".card");
+
+
+
+const observer =
+new IntersectionObserver(entries=>{
+
+
+entries.forEach(entry=>{
+
+
+if(entry.isIntersecting){
+
+entry.target.classList.add("show");
+
+}
+
+
+});
+
+
+},
+{
+threshold:.15
+});
+
+
+
+cards.forEach(card=>{
+
+observer.observe(card);
+
+});
+
+
+
+</script>
+
+
+</body>
+</html>
